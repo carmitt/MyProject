@@ -2,7 +2,7 @@ package enums;
 
 public enum ByTypes {
 
-	xpath("xpath"), id("id"), name("name"), className("class"), link("link");
+	xpath("xpath"), id("id"), name("name"), className("class"), link("link"); 
 
 	public String text;
 
@@ -14,5 +14,5 @@ public enum ByTypes {
 	ByTypes(String text) {
 		this.text = text;
 	}
-
+//commit github
 }
